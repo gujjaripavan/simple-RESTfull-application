@@ -9,6 +9,10 @@ const dataSchema = new mongoose.Schema({
     required: true,
     type: Number,
   },
+  number:{
+    required: true,
+    type: Number,
+  },
 });
 
 module.exports = mongoose.model("Data", dataSchema);
