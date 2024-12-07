@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const mongoURI = process.env.MONGODB_URI;
 const routes = require("./routes/routes");
 
-mongoose.connect(mongoURI).then(() => console.log("Database Connected..."));
+mongoose.connect(mongoURI).then(() => console.log("Database Connected....."));
 
 const app = express();
 app.use(express.json());
